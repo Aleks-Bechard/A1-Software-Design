@@ -2,7 +2,12 @@ package Assignments.A1;
 import java.util.Random;
 /**
  * Aleks Bechard
+ student number: 991645799
  */
+
+/*
+this class generates three cards for the player at random
+*/
 public class Player
 {
 
