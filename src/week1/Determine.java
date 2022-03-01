@@ -62,7 +62,7 @@ public class Determine {
     }
     
     //Returns players choice for who they are betting on
-    public String getBetChoi(){
+    public String getBetChoice(){
         
         return betChoice;
     }
