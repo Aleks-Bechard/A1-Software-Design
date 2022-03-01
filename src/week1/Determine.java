@@ -141,13 +141,13 @@ public class Determine {
     }
     
     //Prints out you lost screen with losses
-    public double loss(){
+    private double loss(){
         System.out.println("YOU LOST!\nAMOUNT LOST: " + betAmount);
         return betAmount - betAmount*2;
     }
     
     //Prints out you win screen with winnings
-    public double win(double winnings){
+    private double win(double winnings){
         System.out.println("YOU WIN\nAMOUNT WON: " + (betAmount * winnings));
         return betAmount * winnings;
     }
