@@ -1,4 +1,6 @@
+package deliverable_3;
 import java.util.Random;
+
 /**
  * Nupur Patel
  */
@@ -7,6 +9,7 @@ public class Banker
 
    protected int score;
    protected Suits suit;
+   protected Value values;
 
    public void createBankerHand ()
    {
@@ -36,5 +39,8 @@ public class Banker
       return suit;
    }
 
-
+   public Value getValue ()
+   {
+      return values;
+   }
 }
